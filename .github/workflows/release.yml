@@ -14,7 +14,7 @@ permissions:
 jobs:
   release:
     name: Build (Nix flake) & publish
-    runs-on: macos-26
+    runs-on: macos-27
     timeout-minutes: 45
     steps:
       - name: Checkout
